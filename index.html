@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drasti Thakkar | AI & Python Developer</title>
+    <meta name="description" content="Portfolio of Drasti Thakkar, an MCA student and AI & Python Developer specializing in Django and GenAI.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container">
+            <a href="#" class="logo">Drasti Thakkar</a>
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <a href="RESUME.pdf" target="_blank" class="btn btn-primary btn-sm">Download Resume</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-container">
+                    <img src="photo.png" alt="Drasti Thakkar" class="profile-img">
+                </div>
+                <br>
+                <span class="badge">Aspiring AI Engineer</span>
+                <h1 class="hero-title">Building the <span style="color: var(--primary)">Future</span> with Intelligence</h1>
+                <p class="hero-subtitle">Hi, I'm Drasti Thakkar. An MCA student specializing in Python, Django, and Generative AI, creating robust systems that solve real-world problems.</p>
+                <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="#projects" class="btn btn-primary">View My Work <i data-lucide="arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-outline">Let's Connect</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="grid" style="align-items: center;">
+                <div class="about-text">
+                    <p>I am an MCA student at LDRP Institute of Technology & Research with a strong foundation in backend development and a growing expertise in Artificial Intelligence. My journey is driven by curiosity and a commitment to building scalable, efficient software.</p>
+                    <p>I thrive on the intersection of data and logic, whether it's optimizing a Django backend or integrating advanced LLMs via Ollama. I am currently honing my skills to become a top-tier AI Engineer.</p>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem;">
+                        <div>
+                            <h4 style="color: var(--primary); margin-bottom: 0.5rem; font-size: 1rem;">Education</h4>
+                            <p style="font-size: 0.95rem; line-height: 1.4;">MCA (2025-2027)<br>LDRP Institute<br>GPA: 8.6</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--secondary); margin-bottom: 0.5rem; font-size: 1rem;">Location</h4>
+                            <p style="font-size: 0.95rem; line-height: 1.4;">Gujarat, India<br>Ready to relocate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="border-left: 6px solid var(--primary);">
+                    <h3 style="margin-bottom: 1.5rem; font-size: 1.5rem;">Core Mission</h3>
+                    <p>To leverage my technical skills in Python and AI to create innovative products that automate complexity and empower users. I am passionate about the potential of Generative AI to reshape the software landscape.</p>
+                    <div class="tags">
+                        <span class="tag">#AI_Engineering</span>
+                        <span class="tag">#BackendDev</span>
+                        <span class="tag">#ContinuousLearning</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i data-lucide="terminal"></i>
+                    <h4>Python</h4>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="coffee"></i>
+                    <h4>Java</h4>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="layers"></i>
+                    <h4>Django</h4>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="database"></i>
+                    <h4>MySQL</h4>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="brain-circuit"></i>
+                    <h4>GenAI / Ollama</h4>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="activity"></i>
+                    <h4>WebSockets</h4>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="git-merge"></i>
+                    <h4>Git / GitHub</h4>
+                </div>
+                <div class="skill-card">
+                    <i data-lucide="settings"></i>
+                    <h4>REST APIs</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="grid">
+                <!-- Project 1 -->
+                <div class="card project-card">
+                    <div class="project-image" style="background-image: linear-gradient(135deg, #FFB3C1 0%, #FF748D 100%);"></div>
+                    <div class="project-info">
+                        <h3>GenAI Smart Python IDE</h3>
+                        <p>Developed an AI-powered IDE using Django and WebSockets. Features real-time code execution, terminal updates, and AI-based code generation via Ollama.</p>
+                        <div class="tags">
+                            <span class="tag">Django</span>
+                            <span class="tag">WebSockets</span>
+                            <span class="tag">Ollama</span>
+                            <span class="tag">MySQL</span>
+                        </div>
+                        <div style="margin-top: 2rem;">
+                            <a href="https://github.com/drasti-0610" target="_blank" class="btn btn-outline btn-sm">GitHub <i data-lucide="external-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="card project-card">
+                    <div class="project-image" style="background-image: linear-gradient(135deg, #A78BFA 0%, #7C3AED 100%);"></div>
+                    <div class="project-info">
+                        <h3>E-Learning Portal</h3>
+                        <p>A comprehensive role-based LMS platform with secure authentication, course management, and high-performance video streaming.</p>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Django</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">Backend</span>
+                        </div>
+                        <div style="margin-top: 2rem;">
+                            <a href="https://github.com/drasti-0610" target="_blank" class="btn btn-outline btn-sm">GitHub <i data-lucide="external-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Education -->
+    <section id="experience" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Professional Journey</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2025 - Mar 2025</div>
+                    <h3>Junior Software Developer Intern</h3>
+                    <h4 style="color: var(--primary); margin-bottom: 0.5rem;">HN Techno | Ahmedabad</h4>
+                    <p>Contributed to Python-based web applications, optimized backend logic, and gained deep experience in SDLC, version control, and team collaboration.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025 - 2027</div>
+                    <h3>Master of Computer Applications</h3>
+                    <h4 style="color: var(--text-secondary)">LDRP Institute of Technology & Research</h4>
+                    <p>Focused on advanced computational theories and AI integration. Current GPA: 8.6/10.</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2025</div>
+                    <h3>Bachelor of Computer Applications</h3>
+                    <h4 style="color: var(--text-secondary)">Gujarat University</h4>
+                    <p>Graduated with a GPA of 7.5. Developed core programming fundamentals and database management skills.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications & Interests -->
+    <section class="section reveal">
+        <div class="container">
+            <div class="grid">
+                <div>
+                    <h3 style="margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.75rem; font-family: 'Playfair Display', serif;">Certifications</h3>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 1.25rem;">
+                            <a href="image.png" target="_blank" style="display: flex; align-items: start; gap: 1rem; color: inherit; text-decoration: none;">
+                                <i data-lucide="award" style="color: var(--primary); flex-shrink: 0;"></i>
+                                <div>
+                                    <strong style="display: block;">AI Fluency & Framework (Anthropic)</strong>
+                                    <span style="font-size: 0.85rem; color: var(--text-secondary);">Click to view certificate</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 1.25rem;">
+                            <a href="image copy.png" target="_blank" style="display: flex; align-items: start; gap: 1rem; color: inherit; text-decoration: none;">
+                                <i data-lucide="award" style="color: var(--primary); flex-shrink: 0;"></i>
+                                <div>
+                                    <strong style="display: block;">AI Beginners Guide (Simplilearn)</strong>
+                                    <span style="font-size: 0.85rem; color: var(--text-secondary);">Click to view certificate</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 1.25rem;">
+                            <a href="image copy 2.png" target="_blank" style="display: flex; align-items: start; gap: 1rem; color: inherit; text-decoration: none;">
+                                <i data-lucide="award" style="color: var(--primary); flex-shrink: 0;"></i>
+                                <div>
+                                    <strong style="display: block;">Generative AI for Beginners (Simplilearn)</strong>
+                                    <span style="font-size: 0.85rem; color: var(--text-secondary);">Click to view certificate</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 1.25rem;">
+                            <a href="image copy 3.png" target="_blank" style="display: flex; align-items: start; gap: 1rem; color: inherit; text-decoration: none;">
+                                <i data-lucide="award" style="color: var(--primary); flex-shrink: 0;"></i>
+                                <div>
+                                    <strong style="display: block;">Java Mastery (Udemy)</strong>
+                                    <span style="font-size: 0.85rem; color: var(--text-secondary);">Click to view certificate</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 1.25rem;">
+                            <a href="image copy 4.png" target="_blank" style="display: flex; align-items: start; gap: 1rem; color: inherit; text-decoration: none;">
+                                <i data-lucide="award" style="color: var(--primary); flex-shrink: 0;"></i>
+                                <div>
+                                    <strong style="display: block;">SQL Micro Course (SkillCount)</strong>
+                                    <span style="font-size: 0.85rem; color: var(--text-secondary);">Click to view certificate</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li style="margin-bottom: 1.25rem;">
+                            <a href="image copy 5.png" target="_blank" style="display: flex; align-items: start; gap: 1rem; color: inherit; text-decoration: none;">
+                                <i data-lucide="award" style="color: var(--primary); flex-shrink: 0;"></i>
+                                <div>
+                                    <strong style="display: block;">Python for Beginners (Udemy)</strong>
+                                    <span style="font-size: 0.85rem; color: var(--text-secondary);">Click to view certificate</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 2rem; border-bottom: 2px solid var(--border-color); padding-bottom: 0.75rem; font-family: 'Playfair Display', serif;">Interests</h3>
+                    <div class="tags">
+                        <span class="tag" style="padding: 0.625rem 1.25rem; font-size: 0.85rem;">AI Research</span>
+                        <span class="tag" style="padding: 0.625rem 1.25rem; font-size: 0.85rem;">Algorithmic Problem Solving</span>
+                        <span class="tag" style="padding: 0.625rem 1.25rem; font-size: 0.85rem;">Web Architecture</span>
+                        <span class="tag" style="padding: 0.625rem 1.25rem; font-size: 0.85rem;">Personal Development</span>
+                        <span class="tag" style="padding: 0.625rem 1.25rem; font-size: 0.85rem;">Tech Blogging</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section reveal">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="grid">
+                <div>
+                    <p style="font-size: 1.1rem;">I'm always open to discussing new opportunities, AI collaborations, or interesting tech projects. Feel free to reach out!</p>
+                    <div style="margin-top: 3rem;">
+                        <a href="mailto:drastithakkar6@gmail.com" class="card" style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem; margin-bottom: 1.5rem;">
+                            <i data-lucide="mail" style="color: var(--primary)"></i>
+                            <div>
+                                <strong style="display: block; font-size: 0.9rem;">Email Me</strong>
+                                <span style="color: var(--text-secondary);">drastithakkar6@gmail.com</span>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/drasti-thakkar-09641b314" target="_blank" class="card" style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem; margin-bottom: 1.5rem;">
+                            <i data-lucide="linkedin" style="color: var(--primary)"></i>
+                            <div>
+                                <strong style="display: block; font-size: 0.9rem;">LinkedIn Profile</strong>
+                                <span style="color: var(--text-secondary);">drasti-thakkar</span>
+                            </div>
+                        </a>
+                        <a href="https://github.com/drasti-1650" target="_blank" class="card" style="display: flex; align-items: center; gap: 1.5rem; padding: 1.5rem;">
+                            <i data-lucide="github" style="color: var(--primary)"></i>
+                            <div>
+                                <strong style="display: block; font-size: 0.9rem;">GitHub Account</strong>
+                                <span style="color: var(--text-secondary);">drasti-1650</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 style="margin-bottom: 2rem;">Send a Message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" rows="5" placeholder="Let's build something amazing together..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 4rem 0; background-color: white; border-top: 1px solid var(--border-color); text-align: center;">
+        <div class="container">
+            <p style="margin-bottom: 1rem;">&copy; 2025 Drasti Thakkar. All Rights Reserved.</p>
+            <div style="display: flex; gap: 1.5rem; justify-content: center;">
+                <a href="https://linkedin.com/in/drasti-thakkar-09641b314" target="_blank" style="color: var(--text-secondary);"><i data-lucide="linkedin"></i></a>
+                <a href="https://github.com/drasti-1650" target="_blank" style="color: var(--text-secondary);"><i data-lucide="github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
